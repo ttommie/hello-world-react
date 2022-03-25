@@ -36,7 +36,7 @@ class App extends React.Component {
 			<Container maxWidth="sm">
 				<div className="textDiv">
 					<Typography variant="h1" color="common">
-						Hello {this.state.name}!
+						Hello {this.state.name}
 					</Typography>
 					<Typography variant="h4" color="primary">
 						Current Time: {this.state.date.toLocaleTimeString()}
