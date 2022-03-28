@@ -1,11 +1,37 @@
-## What is it?
+# Hello-World-React
 
-This is my first project working with react. Who doesn't start with Hello world?
+A small hello-world project created using react.
 
-## What does it do?
+## Features
 
-Basically it shows the current time and updates on every tick.
-You can also type in the 'Name' text field and it outputs in the hello message!
+- Real-time Clock & Message Updater
+- Live Preview
+- Mobile Accessible
 
-## Try it out!
-https://ttommie.github.io/hello-world-react/
+## Third Party Packages Used
+
+[Material UI](https://mui.com/)
+
+## Deployment
+
+Clone or Download
+
+```bash
+git clone https://github.com/ttommie/hello-world-react.git
+```
+
+Install all node modules
+
+```bash
+npm Install
+```
+
+Run the react server
+
+```bash
+npm start
+```
+
+## Demo
+
+[Live Demo](https://ttommie.github.io/hello-world-react/)

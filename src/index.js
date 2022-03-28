@@ -13,7 +13,7 @@ class App extends React.Component {
 
 		this.state = {
 			date: new Date(),
-			name: '',
+			name: 'World',
 		};
 	}
 
@@ -31,6 +31,14 @@ class App extends React.Component {
 		});
 	}
 
+	typing(e) {
+		this.setState({name: 'World'})
+		e.preventDefault();
+		if (e.target.value !== '') {
+			this.setState({ name: e.target.value })
+		}
+	}
+
 	render() {
 		return (
 			<Container maxWidth="sm">
@@ -43,8 +51,8 @@ class App extends React.Component {
 					</Typography>
 				</div>
 				<div>
-					<form noValidate autoComplete="off">
-						<TextField onChange={(e) => this.setState({ name: e.target.value })} label="Name" variant="outlined" size="small" />
+					<form noValidate autoComplete="off"  onSubmit={(e) => e.preventDefault()}>
+						<TextField onChange={(e) => this.typing(e)} label="Name" variant="outlined" size="small" />
 					</form>
 				</div>
 			</Container>
