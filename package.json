@@ -1,7 +1,7 @@
 {
   "name": "clock-app",
   "version": "0.1.0",
-  "homepage": "https://ttommiegithub.io/hello-world-react",
+  "homepage": "https://ttommie.github.io/hello-world-react",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",
@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeloy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
